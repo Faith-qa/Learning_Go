@@ -4,7 +4,7 @@ This repository contains a series of 10 projects built that served as a learning
 my learning style has always been learning by doing.As a result i've compiled 10 projects in this series that reflect my understanding of the language.
 
 ## Projects built in this repo:
-1. simple web server [*]
+1. Simple web server
 2. Building A crude API with Golang []
 3. Golang with MYSQL book Management System []
 4. Simple slackBot to calculate Age []
