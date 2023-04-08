@@ -23,7 +23,45 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "GET MOVIES",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/movies",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"movies"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 08 Apr 2023 06:01:43 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "203"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"1\",\n        \"isbn\": \"234567\",\n        \"title\": \"The fleek\",\n        \"director\": {\n            \"firstname\": \"John\",\n            \"lastname\": \"Doe\"\n        }\n    },\n    {\n        \"id\": \"466660\",\n        \"isbn\": \"233167\",\n        \"title\": \"Spider man\",\n        \"director\": {\n            \"firstname\": \"Mark\",\n            \"lastname\": \"Finley\"\n        }\n    }\n]"
+				}
+			]
 		},
 		{
 			"name": "GET BY ID",
@@ -43,7 +81,46 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "GET BY ID",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/movies/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"movies",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 08 Apr 2023 05:58:13 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "96"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"1\",\n    \"isbn\": \"234567\",\n    \"title\": \"The fleek\",\n    \"director\": {\n        \"firstname\": \"John\",\n        \"lastname\": \"Doe\"\n    }\n}"
+				}
+			]
 		},
 		{
 			"name": "DELETE MOVIE",
@@ -63,7 +140,46 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "DELETE MOVIE",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8000/movies/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"movies",
+								"2"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "applicatiob/json"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 08 Apr 2023 05:59:52 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "98"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"1\",\n        \"isbn\": \"234567\",\n        \"title\": \"The fleek\",\n        \"director\": {\n            \"firstname\": \"John\",\n            \"lastname\": \"Doe\"\n        }\n    }\n]"
+				}
+			]
 		},
 		{
 			"name": "CREATE MOVIE",
@@ -91,7 +207,54 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "CREATE MOVIE",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"id\": \"4\",\n        \"isbn\": \"233167\",\n        \"title\": \"Spider man\",\n        \"director\": {\n            \"firstname\": \"Mark\",\n            \"lastname\": \"Finley\"\n        }\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/movies",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"movies"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 08 Apr 2023 06:01:27 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "105"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"466660\",\n    \"isbn\": \"233167\",\n    \"title\": \"Spider man\",\n    \"director\": {\n        \"firstname\": \"Mark\",\n        \"lastname\": \"Finley\"\n    }\n}"
+				}
+			]
 		},
 		{
 			"name": "UPDATE MOVIE",
@@ -120,7 +283,55 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "UPDATE MOVIE",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\n    {\n    \"id\": \"466660\",\n    \"isbn\": \"233167\",\n    \"title\": \"Best sermons 2019\",\n    \"director\": {\n        \"firstname\": \"Mark\",\n        \"lastname\": \"Finley\"\n    }\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/movies/466660",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"movies",
+								"466660"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 08 Apr 2023 06:03:56 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "112"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"466660\",\n    \"isbn\": \"233167\",\n    \"title\": \"Best sermons 2019\",\n    \"director\": {\n        \"firstname\": \"Mark\",\n        \"lastname\": \"Finley\"\n    }\n}"
+				}
+			]
 		}
 	]
 }
