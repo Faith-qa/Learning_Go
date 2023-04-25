@@ -62,9 +62,17 @@ go run main.go
 
 you should be able to see the bot in your slack as follows. feel free to test it out.
 
-![bot available in slack](./slack-age-bot)
+**bot available in slack**
+
+![bot available in slack](./screenshots/slack-age-bot)
+
+
+**bot at work**
 
 ![bot at work](./screenshots/botatwork.png)
+
+
+**you can always access the logs from your terminal**
 
 
 ![you can always access the logs from your terminal](./screenshots/logs.png)
