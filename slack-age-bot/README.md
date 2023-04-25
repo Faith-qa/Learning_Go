@@ -64,7 +64,7 @@ you should be able to see the bot in your slack as follows. feel free to test it
 
 **bot available in slack**
 
-![bot available in slack](./screenshots/botatwork.png)
+![bot available in slack](./screenshots/botvisble.png)
 
 
 **bot at work**
