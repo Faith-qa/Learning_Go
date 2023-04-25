@@ -8,7 +8,7 @@ my learning style has always been learning by doing.As a result i've compiled 10
 2. [Building A crude API with Golang](./movies-rest_api/)
 3. [Golang with MYSQL book Management System](./go-bookstore/)
 4. [Simple slackBot to calculate Age](./slack-age-bot/) 
-5. Golang slackbot for File Uploading 
+5. [Golang slackbot for File Uploading](./slack-file-bot/) 
 6. Email Verifier Tool with Golang 
 7. AWS Lambda with Golang 
 8. CRM with Golang Fibre
