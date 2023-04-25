@@ -4,9 +4,9 @@ This repository contains a series of 10 projects built that served as a learning
 my learning style has always been learning by doing.As a result i've compiled 10 projects in this series that reflect my understanding of the language.
 
 ## Projects built in this repo:
-1. Simple web server
-2. Building A crude API with Golang 
-3. Golang with MYSQL book Management System 
+1. [Simple web server](./simple-web_server/)
+2. [Building A crude API with Golang](./movies-rest_api/)
+3. [Golang with MYSQL book Management System](./go-bookstore/)
 4. Simple slackBot to calculate Age 
 5. Golang slackbot for File Uploading 
 6. Email Verifier Tool with Golang 
