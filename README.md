@@ -9,7 +9,7 @@ my learning style has always been learning by doing.As a result i've compiled 10
 3. [Golang with MYSQL book Management System](./go-bookstore/)
 4. [Simple slackBot to calculate Age](./slack-age-bot/) 
 5. [Golang slackbot for File Uploading](./slack-file-bot/) 
-6. Email Verifier Tool with Golang 
+6. [Email Verifier Tool with Golang ](./email-verifier/)
 7. AWS Lambda with Golang 
 8. CRM with Golang Fibre
 9. HRMS with Golang Fibre
